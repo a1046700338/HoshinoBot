@@ -12,17 +12,35 @@ A QQ-bot for Princess Connect Re:Dive based on [Nonebot](https://github.com/none
 
 
 ## 简介
-
+由于是自用品，在这里给大家提供一个个人整理好的整合包[link](https://f.ws59.cn/f/culv5d20i75)密码:8646  
 **HoshinoBot:** 基于 [nonebot](https://docs.nonebot.dev/) 的开源Q群bot框架。
-自用魔改版，其中预置了许多功能，包括但不局限于：
+**自用魔改版**。其中预置了许多功能，包括但不局限于：
 - [pcr戳一戳集卡](https://github.com/GWYOG/GWYOG-Hoshino-plugins#8-%E6%88%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%9B%86%E5%8D%A1%E5%B0%8F%E6%B8%B8%E6%88%8Fpokemanpcr)
-- 发病小作文
-- b站爬虫搜索
-- 反并发
+- [发病小作文](https://github.com/RMYHY/RBot/tree/main/HoshinoBot/hoshino/modules/asill)
+- [b站爬虫搜索](https://github.com/GWYOG/GWYOG-Hoshino-plugins)
+- [反并发](https://github.com/GWYOG/GWYOG-Hoshino-plugins)
 - [点歌](https://github.com/pcrbot/music)
 - [人生重来模拟器](https://github.com/DaiShengSheng/lifeRestart_bot)
 - [图片版lssv](https://github.com/RSRH-Rs/image_lssv)
-- 帮助网页版
+- [帮助网页版](https://github.com/SonderXiaoming/autohelp)
+
+## 插件列表
+列表罗列了本bot使用到的功能插件，仅供参考。  
+[HoshinoBot 作品索引](https://github.com/pcrbot/HoshinoBot-plugins-index)  
+- 抽签运势[huannai_plugin_fortune](https://github.com/SonderXiaoming/huannai_plugin_fortune)
+- 免费版ai闲聊[ai](https://github.com/joeyHXD/ai)
+- 今日老婆[dailywife](https://github.com/SonderXiaoming/dailywife)
+- [pcrjjc2](https://github.com/cc004/pcrjjc2)
+- 战地15查询[bf_record_search](https://github.com/half-ghost/bf_record_search)
+- 人生重来模拟器[lifeRestart_bot](https://github.com/DaiShengSheng/lifeRestart_bot)
+- pcr戳一戳集卡[pokemanpcr](https://github.com/GWYOG/GWYOG-Hoshino-plugins#8-%E6%88%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%9B%86%E5%8D%A1%E5%B0%8F%E6%B8%B8%E6%88%8Fpokemanpcr)
+- 图片版lssv[image_lssv](https://github.com/RSRH-Rs/image_lssv)
+- Bilibili小程序转链接[](https://github.com/liuzhaoze/biliminiapp_to_link)
+- 伪造群聊消息[fake_news](https://github.com/BeiYazi0/fake_news)
+- pcr签到魔改版[login_bonus](https://github.com/SonderXiaoming/login_bonus)
+- 每日简报[everyday_news](https://github.com/PerfBleu/everyday_news)
+- 点歌[music](https://github.com/pcrbot/music)
+- 碧蓝档案[Blue_Archive_HoshinoBot](https://github.com/Cosmos01/Blue_Archive_HoshinoBot)
 
 ## 更新公告
 - 2023.04: 支持Twitter API v2。使用前请按照[指引](https://github.com/Ice9Coffee/HoshinoBot/pull/271#issuecomment-1505584958)升级框架。由于Twitter API政策仍在频繁调整，不保证未来的可用性。感谢贡献者[@othinus001](https://github.com/othinus001)！
@@ -166,7 +184,7 @@ QQ群[![试用/赞助群](https://img.shields.io/badge/试用/赞助-Hoshinoの�
 
     - github 发布页：https://github.com/Mrs4s/go-cqhttp/releases
 
-    > 您需要根据自己的机器架构选择版本，Windows一般为x86/64架构，通常选择[go-cqhttp_windows_amd64.exe]()
+    > 您需要根据自己的机器架构选择版本，Windows一般为x86/64架构，通常选择[go-cqhttp_windows_amd64](https://github.com/Mrs4s/go-cqhttp/releases/download/v1.2.0/go-cqhttp_windows_amd64.zip)
 
 7. 在同文件夹内创建一个文本文件，重命名为`config.yml`，将以下内容写入文件：
 
